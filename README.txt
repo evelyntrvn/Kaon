@@ -1,3 +1,8 @@
+Evelyn Tran's submission for Kaon Interaction
+
+-------------------------------------------
+
+
 Thanks very much for your interest in this project. The directory called "screens" contains screens for an application design. Your goal is to build a webpage that will match this design as closely as possible. 
 
 There is an empty directory called "project" that we've started, where you can build your application. There are image assets in the "assets" directory for you to use, and there is very basic example in the "example" directory that you can use as a guide for how we typically develop.
