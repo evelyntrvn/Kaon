@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="css/app.css" />
+    <title>Project</title>
+    <script src="js/touche-min.js" charset="utf-8"></script>
+    <script src="js/zepto.min.js" charset="utf-8"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+  </head>
+
+
+  <body>
+    <!-- ENTRY PAGE -->
+    <div class="page active" data-page="entry">
+      <div id="sections">
+        <div class="button overlay page_b" data-js-page="gov" id="gov_b">
+          <img src="assets/gov.png" class="icons" id="gov_icon" />
+
+          <div class="button_name">
+            <img src="assets/arrowL.png" class="arrow_icon" />
+            <h2>Government</h2>
+          </div>
+        </div>
+
+        <div class="overlay entry_overlay" id="kaon">
+          <h1>Kaon Interactive</h1>
+
+          <div id="logo">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+        </div>
+
+        <div class="button overlay page_b" data-js-page="health" id="health_b">
+          <img src="assets/med.png" class="icons" id="health_icon" />
+
+          <div class="button_name">
+            <h2>Healthcare</h2>
+            <img src="assets/arrowR.png" class="arrow_icon" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BACKGROUNDS -->
+    <div id="bkgds">
+
+      <!-- GOV PAGE -->
+
+      <div class="img_container" data-page="gov">
+        <div class="page" data-page="gov">
+          <div class="button overlay2 page_b" id="gov_back_b" data-js-page="entry">
+            <img src="assets/arrowR.png" class="arrow_icon" />
+          </div>
+          <div class="overlay2 button" id="explore_b">
+            <h1>Explore</h1>
+          </div>
+    
+          <div class="overlay2" id="explore_opt">
+            <div class="option">
+              <h2>Option 1</h2>
+            </div>
+            <div class="opt_sep"></div>
+    
+            <div class="option">
+              <h2>Option 2</h2>
+            </div>
+            <div class="opt_sep"></div>
+    
+            <div class="option">
+              <h2>Option 3</h2>
+            </div>
+            <div class="opt_sep"></div>
+    
+            <div class="option">
+              <h2>Option 4</h2>
+            </div>
+          </div>
+        </div>
+
+        <img class="bkg_img" src="assets/gov_bg.png" />
+      </div>
+      <div class="separator"></div>
+
+        <!-- HEALTHCARE PAGE -->
+      <div class="img_container" data-page="health">
+        <div class="page" data-page="health">
+          <div
+            class="button overlay2 page_b"
+            id="health_back_b"
+            data-js-page="entry"
+          >
+            <img src="assets/arrowL.png" class="arrow_icon" />
+          </div>
+    
+          <div class="overlay2 health_opt" id="optA">
+            <h3>Option A</h3>
+            <div class="arrow"></div>
+          </div>
+    
+          <div class="overlay2 health_opt" id="optB">
+            <h3>Option B</h3>
+            <div class="arrow"></div>
+          </div>
+        </div>
+        <img class="bkg_img" src="assets/hc_bg.png" />
+      </div>
+    </div>
+  </body>
+</html>
